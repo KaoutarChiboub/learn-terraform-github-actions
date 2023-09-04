@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "Migration_Terraform"
+    organization = "Migration-Terraform"
 
     workspaces {
       name = "demo_github_actions"
